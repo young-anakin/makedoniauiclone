@@ -12,6 +12,9 @@ import OurHome from "./Components/Home/OurHome";
 import Infomertial from "./Components/Home/Infomertial";
 import Landing from "./Components/Home/Landing";
 import Header from "./Components/Home/Header";
+import Gallery from "./Components/Home/Gallery";
+import Message from "./Components/Home/Message";
+
 
 
 
@@ -27,6 +30,8 @@ export default function Home() {
             <OurHome/>
             <Numbers/>
             <Contribute/>
+            <Gallery/>
+            <Message/>
           </div>
     </div>
   );
