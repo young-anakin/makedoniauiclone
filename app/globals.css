@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+
+  /* color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Add your animation styles here */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fromDistance {
+  from {
+    transform: scale(0.5) translateZ(-2000px); /* Start small and far */
+    opacity: 0; /* Invisible at start */
+  }
+  to {
+    transform: scale(1) translateZ(0); /* Normal size and position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.image-from-distance {
+  animation: fromDistance 1.5s ease-out;
+}
+
+.section {
+  opacity: 0; /* Initially hidden */
+  animation: slideIn 0.8s ease forwards; /* Animation properties */
+}
+
+.section-1 {
+  animation-delay: 0s; /* No delay for the first section */
+}
+.section-4{
+  animation-delay: 0.25s;
+}
+.section-2 {
+  animation-delay: 0.5s; /* 0.5s delay for the second section */
+}
+
+.section-3 {
+  animation-delay: 1s; /* 1s delay for the third section */
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-from-top {
+  opacity: 0; /* Initially hidden */
+  animation: slideInFromTop 1s ease forwards;
+}
+
+.slide-h2 {
+  animation-delay: 0s; /* h2 animates immediately */
+}
+
+.slide-a {
+  animation-delay: 0.2s; /* a animates shortly after h2 */
+}
+
+.slide-h1 {
+  animation-delay: 0.5s; /* h1 animates after both */
+}
