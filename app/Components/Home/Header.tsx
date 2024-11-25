@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -52,18 +53,18 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-4">
 
-          <a className="group relative text-[#646464] active:underline">
+          <Link href = "./pages" className="group relative text-[#646464] active:underline">
                 HOME
                 <span className="absolute bottom-[-10px] left-0 w-[55px] h-[3px] bg-[#646464] transition-all duration-300"></span>
-              </a>
+              </Link>
 
 
             <span className="h-5 w-0.5 bg-red-500 "></span>
 
-            <a className="group relative hover:text-red-500 active:text-[#646464] active:underline">
+            <Link href = "../Pages/OurCases" className="group relative hover:text-red-500 active:text-[#646464] active:underline">
               OUR CAUSES
               <span className="absolute bottom-[-10px] left-0 w-full h-[3px] bg-red-500 active:bg-[#646464] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 transform origin-bottom"></span>
-            </a>
+            </Link>
 
             <span className="h-5 w-0.5 bg-red-500"></span>
             <div className="relative group">
@@ -85,13 +86,13 @@ const Header = () => {
                 <div className="absolute left-0 mt-2 hidden bg-white border border-gray-300 rounded-md shadow-lg group-hover:block w-full transition-all duration-300 delay-300">
                     <ul className=" text-red-500 text-xs">
                       <li>
-                        <a href="#" className="block px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">OUR IMPACT</a>
+                        <a href="#" className="block duration-300 px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">OUR IMPACT</a>
                       </li>
                       <li>
-                        <a href="#" className="block px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">GALLERY</a>
+                        <a href="#" className="block px-4 py-2 duration-300 text-nowrap text-center hover:bg-red-500 hover:text-white">GALLERY</a>
                       </li>
                       <li>
-                        <a href="#" className="block px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">MEDIA</a>
+                        <a href="#" className="block px-4 py-2 text-nowrap text-center duration-300 hover:bg-red-500 hover:text-white">MEDIA</a>
                       </li>
                     </ul>
                   </div>
@@ -102,14 +103,14 @@ const Header = () => {
             <span className="h-5 w-0.5 bg-red-500 "></span>
 
 
-            <a className="group relative hover:text-red-500 active:text-[#646464] active:underline">
+            <a className="group relative duration-300  hover:text-red-500 active:text-[#646464] active:underline">
               JOIN US
               <span className="absolute bottom-[-10px] left-0 w-[60px] h-[3px] bg-red-500 active:bg-[#646464] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 transform origin-bottom"></span>
             </a>
 
             <span className="h-5 w-0.5 bg-red-500 "></span>
 
-            <a href = "#" className="group relative hover:text-red-500 active:text-[#646464] active:underline">
+            <a href = "#" className="group relative duration-300 hover:text-red-500 active:text-[#646464] active:underline">
               CONTACT
               <span className="absolute bottom-[-10px] left-0 w-full h-[3px] bg-red-500 active:bg-[#646464] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 transform origin-bottom"></span>
             </a>
