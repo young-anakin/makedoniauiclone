@@ -53,7 +53,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-4">
 
-          <Link href = "./pages" className="group relative text-[#646464] active:underline">
+            <Link href = "./pages" className="group relative text-[#646464] active:underline">
                 HOME
                 <span className="absolute bottom-[-10px] left-0 w-[55px] h-[3px] bg-[#646464] transition-all duration-300"></span>
               </Link>
@@ -103,10 +103,10 @@ const Header = () => {
             <span className="h-5 w-0.5 bg-red-500 "></span>
 
 
-            <a className="group relative duration-300  hover:text-red-500 active:text-[#646464] active:underline">
+            <Link href = "../Pages/JoinUs" className="group relative duration-300  hover:text-red-500 active:text-[#646464] active:underline">
               JOIN US
               <span className="absolute bottom-[-10px] left-0 w-[60px] h-[3px] bg-red-500 active:bg-[#646464] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 transform origin-bottom"></span>
-            </a>
+            </Link>
 
             <span className="h-5 w-0.5 bg-red-500 "></span>
 

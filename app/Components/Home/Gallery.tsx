@@ -1,5 +1,5 @@
 import React from 'react'
-import Images from './Images'
+// import Images from './Images'
 
 const Gallery = () => {
   return (
@@ -46,12 +46,7 @@ const Gallery = () => {
             <p>CONTACT US FOR ITEMS DONATION</p>
         </a>
         
-        <div className='pt-10'>
-            <p className='text-5xl text-[#ed3604] font-vidaloka px-36 text-center pt-8 pb-16 font-semibold'>
-                Our Gallery
-            </p>
-            <Images/>
-        </div>
+
 
     </div>
   )

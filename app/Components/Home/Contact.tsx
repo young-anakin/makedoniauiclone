@@ -3,12 +3,12 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="relative mx-auto flex flex-col text-white bg-cover bg-center bg-binyam justify-center items-center py-10">
-      <div className="absolute inset-0 bg-red-600 bg-opacity-90 z-0"></div>
+      <div className="absolute inset-0 bg-red-700 bg-opacity-90 z-0"></div>
 
     <div className="relative flex gap-3 flex-col items-center justify-center z-20 opacity-100">
         <img src="https://mekedoniahomes.org/wp-content/uploads/2021/10/fav.png" alt="image" />
         <h1 className='text-5xl'>
-            "ሰውን ለመርዳት ሰው መሆን በቂ ነው!"
+            &quot;ሰውን ለመርዳት ሰው መሆን በቂ ነው!&quot;
         </h1>
         <p className='text-base font-bold font-vidaloka'>
             A Sanctuary of the Poor, the Sick, the Weak and the Friendless.

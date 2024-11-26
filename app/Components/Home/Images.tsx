@@ -68,18 +68,21 @@ const ImageGallery = () => {
       <div className="grid grid-cols-3 gap-2">
         {selectedSet === 1 &&
           set1Images.map((image, index) => (
+            // eslint-disable-next-line react/jsx-key
             <div className='overflow-hidden'>
                 <img key={index} src={image} alt={`Set 1 Image ${index + 1}`} className="w-[500px] h-[300px] transition-transform duration-500 hover:scale-110" />
             </div>
           ))}
         {selectedSet === 2 &&
           set2Images.map((image, index) => (
+            // eslint-disable-next-line react/jsx-key
             <div className='overflow-hidden'>
                 <img key={index} src={image} alt={`Set 2 Image ${index + 1}`} className="w-[500px] h-[300px] transition-transform duration-500 hover:scale-110" />
             </div>
           ))}
         {selectedSet === 3 &&
           set3Images.map((image, index) => (
+            // eslint-disable-next-line react/jsx-key
             <div className='overflow-hidden'>
                 <img key={index} src={image} alt={`Set 3 Image ${index + 1}`} className="w-[500px] h-[300px] transition-transform duration-500 hover:scale-110" />
             </div>

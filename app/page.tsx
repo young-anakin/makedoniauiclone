@@ -16,6 +16,7 @@ import Gallery from "./Components/Home/Gallery";
 import Message from "./Components/Home/Message";
 import Facebook from "./Components/Home/Facebook";
 import Joinus from "./Components/Home/Joinus";
+import Images from './Components/Home/Images';
 // import Contact from './Components/Home/Contact';
 // import Help from './Components/Home/Help';
 
@@ -33,6 +34,14 @@ export default function Home() {
           <Numbers />
           <Contribute />
           <Gallery />
+          <div className='pt-10'>
+          <p className='text-5xl text-[#ed3604] font-vidaloka px-36 text-center pt-8 pb-16 font-semibold'>
+                Our Gallery
+            </p>
+           </div>
+           <div className='mx-auto w-[1100px]'>
+            <Images/>
+           </div>
           <Message />
           <Facebook />
           <div className="h-[800px] bg-red-700">
