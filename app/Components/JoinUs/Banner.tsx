@@ -11,7 +11,7 @@ import Footer from '../Home/Footer'
 const banner = () => {
   return (
     <div>
-        <div className='relative flex h-[400px] items-center justify-center text-center bg-art-room-drawing bg-cover bg-center text-white'>
+        <div className='relative flex h-[400px] items-center justify-center text-center bg-community bg-cover bg-center text-white'>
             <div className="absolute inset-0 bg-[#ED3604] bg-opacity-60 z-20 opacity-100"></div>
                 <div className='relative z-20 py-36'>        
                     <p className='font-vidaloka text-7xl'>

@@ -1,8 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
+// import JoinUsForm from '../../Pages/JoinUs/page'
 
 const Infomertial = () => {
   return (
-    <div className="w-[1200px] mx-auto flex  pt-32 text-white justify-start  ">
+    <div className="w-[1200px] mx-auto flex   text-white justify-start  ">
     <div className="flex section section-1 flex-col gap-10 w-[400px] bg-[#ED3604] pt-14 items-center text-center text-white">
     <svg
         height={50}
@@ -29,11 +31,11 @@ const Infomertial = () => {
 
         <div className="flex flex-col gap-5">
           <h3 className="font-vidaloka font-semibold text-2xl">Visit Us</h3>
-          <p className="px-5 font-sans text-sm">Addis Ababa, Harar, Gore, Dessie, Dire Dawa, Adama, Gambella, Shashemane, Beke, and Adwa.</p>
+          <p className="px-10 font-sans text-base">Addis Ababa, Harar, Gore, Dessie, Dire Dawa, Adama, Gambella, Shashemane, Beke, and Adwa.</p>
         </div>
 
         <div className="flex rounded border-white border px-8 py-3 text-nowrap gap-1  hover:bg-white transition-colors duration-300  hover:text-[#ED3604]">
-            <p className="">READ MORE</p>
+            <Link href = "../../Pages/OuiImpact/page" className="">READ MORE</Link>
             <svg
                 height="16"
                 width="16"
@@ -75,11 +77,11 @@ const Infomertial = () => {
 
         <div className="flex flex-col gap-5">
           <h3 className="font-vidaloka font-semibold text-2xl">Join Us</h3>
-          <p className="px-5 font-sans text-sm">You Can Help By Volunteering Your Time, Labor, and ideas.</p>
+          <p className="px-10 font-sans text-base">You Can Help By Volunteering Your Time, Labor, and ideas.</p>
         </div>
 
         <div className="flex rounded border-black border px-8 py-3 transition-colors duration-300  text-nowrap gap-1 hover:bg-black hover:text-[#E1CE0B]">
-            <p className="">READ MORE</p>
+            <Link href = "../../Pages/JoinUs/page" className="">READ MORE</Link>
             <svg
                 height="16"
                 width="16"
@@ -110,8 +112,8 @@ const Infomertial = () => {
         <div className="flex flex-col gap-3">
           <h3 className="font-vidaloka font-semibold text-2xl">Donate Online</h3>
           <div className="flex flex-col gap-2">
-            <p className="px-5 font-sans text-sm">Zelle – 240-938-2992</p>
-            <p className="px-5 font-sans text-sm">Cash App – 240-938-2992</p>
+            <p className="px-10 font-sans text-base">Zelle – 240-938-2992</p>
+            <p className="px-10 font-sans text-base">Cash App – 240-938-2992</p>
             <img 
               src="https://mekedoniahomes.org/wp-content/uploads/2023/06/Minimal-Credit-Card-Icons-02-2048x356.png" 
               alt="Minimal Credit Card Icons" 

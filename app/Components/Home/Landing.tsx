@@ -2,9 +2,10 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className="flex flex-col w-full h-[750px] bg-cover bg-front-page shadow-lg text-xs">
+    <div className="relative flex flex-col w-full h-[750px] bg-cover bg-art-room-drawing shadow-lg text-xs">
     {/* Red Overlay */}
       {/* <div className="absolute inset-0 bg-red-400 bg-opacity-50 z-10"></div> */}
+      <div className="absolute inset-0 bg-[#ED3604] bg-opacity-60 z-20 opacity-100"></div>
 
       {/* Content */}
       <div className="relative z-20">

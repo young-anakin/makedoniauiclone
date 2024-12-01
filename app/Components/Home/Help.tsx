@@ -2,7 +2,7 @@ import React from 'react'
 
 const Help = () => {
   return (
-    <div className="relative mx-auto flex flex-col text-white bg-cover bg-center bg-help-us justify-center items-center py-32">
+    <div className="relative mx-auto flex flex-col text-white bg-cover bg-center bg-help-us justify-center items-center py-24">
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
 
@@ -20,7 +20,7 @@ const Help = () => {
             “ሰውን ለመርዳት ሰው መሆን በቂ ነው!”
           </p>
 
-          <button className='flex gap-2 text-nowrap bg-[#FF4C00] text-xs px-11 py-5 rounded'>    
+          <button className='flex gap-2 text-nowrap bg-[#FF4C00] text-xs px-9 py-4 rounded'>    
             <svg height="16" width="16" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>

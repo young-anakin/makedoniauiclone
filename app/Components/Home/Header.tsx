@@ -70,7 +70,7 @@ const Header = () => {
             <div className="relative group">
                 <a className="relative hover:text-red-500 active:text-[#646464]  ">
                   <div className="flex gap-2 items-center">
-                    <p className="text-nowrap">ABOUT US</p>
+                    <p className="text-nowrap delay-300">ABOUT US</p>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -86,13 +86,13 @@ const Header = () => {
                 <div className="absolute left-0 mt-2 hidden bg-white border border-gray-300 rounded-md shadow-lg group-hover:block w-full transition-all duration-300 delay-300">
                     <ul className=" text-red-500 text-xs">
                       <li>
-                        <a href="#" className="block duration-300 px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">OUR IMPACT</a>
+                        <Link href="../Pages/OurImpact" className="block duration-300 px-4 py-2 text-nowrap text-center hover:bg-red-500 hover:text-white">OUR IMPACT</Link>
                       </li>
                       <li>
-                        <a href="#" className="block px-4 py-2 duration-300 text-nowrap text-center hover:bg-red-500 hover:text-white">GALLERY</a>
+                        <Link href="../Pages/OurGallery" className="block px-4 py-2 duration-300 text-nowrap text-center hover:bg-red-500 hover:text-white">GALLERY</Link>
                       </li>
                       <li>
-                        <a href="#" className="block px-4 py-2 text-nowrap text-center duration-300 hover:bg-red-500 hover:text-white">MEDIA</a>
+                        <Link href="../Pages/OurMedia" className="block px-4 py-2 text-nowrap text-center duration-300 hover:bg-red-500 hover:text-white">MEDIA</Link>
                       </li>
                     </ul>
                   </div>

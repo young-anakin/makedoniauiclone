@@ -41,9 +41,10 @@ const JoinUsForm = () => {
                 >
                     <div className='flex gap-2 pb-4'>
                     <div className='w-[2px] bg-red-500'></div>
-                    <p className='text-red-500 text-lg font-sans font-medium'> JOIN US</p>
+                    <p className='text-red-500 text-lg font-sans font-medium'>JOIN US</p>
                     </div>
-                    <p className='text-black text-5xl text-nowrap font-semibold font-vidaloka pb-8'>To make a change!</p>
+                    {/* <p className="text-black">rs</p> */}
+                    <p className='text-black text-start text-5xl text-nowrap font-semibold font-vidaloka pb-8'>To make a change!</p>
                     {/* <h2 className="text-2xl font-bold mb-6 text-center">Signup Form</h2> */}
                     <div className="flex mb-4 gap-5">
                     <input
